@@ -1,0 +1,283 @@
+/* Big tablet to 1200px  */
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+	#wrap { max-height: 700px; } 
+	.products { width: 840px; }
+	.slider { 
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+
+	.sticky-logo {
+		height: 20px;
+		margin: 12px 15px 12px 0;
+	}
+	.sticky .main-nav { margin: 10px 0 0 0; }
+	.sticky-icon.wrap-icon-header { margin-top: 15px; }
+	.section-offers { padding: 60px 0 80px; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+	#popup-wrapper {
+        width: 100%;
+        padding: 0 2%;
+    }
+	header { padding-bottom: 60px; }
+	.main-nav li { margin: 0 5px 0 0; }
+	.sticky .main-nav li {  margin: 0 5px 0 0; }
+	.sticky .main-nav li a:link, .sticky .main-nav li a:visited { font-size: 55%; }
+	.sticky .main-nav li:last-child {  margin: 0; }
+	.sticky-logo { margin: 10px 7px 12px 0; }
+	.main-nav li a:link, .main-nav li a:visited { font-size: 66%; }
+    .section-offers, .section-arrivals { padding: 60px 0; }
+	.section-offers { padding-top: 20px; }
+	.section-promotion { padding: 60px 0 20px; }
+	.section-support { padding: 30px 0; }
+	footer { padding: 40px 0; }
+	.supportP {
+		font-size: 75%;
+		line-height: 130%;
+		letter-spacing: 0;
+	}
+	.icon-big { font-size: 320%; }
+	.correct { margin-top: 10px; }
+	.correct1 { margin-top: 10px; }
+	.contact-box { margin-top: 9px; }
+	input#submit { 
+		padding: 10px 15px; 
+		height: 40px;
+	}
+	footer h4 { margin-bottom: 15px; }
+	.social-links { margin-top: 25px; }
+	.contactP {
+		margin: 0 0 7px 0;
+		font-size: 85%;
+	}
+	input#name, input#email { height: 40px; }
+	.finalP:last-child { margin-top: 10px; }
+	.products { width: 630px; }
+	.popup-p { margin: 15px auto; }
+	.popup-notice-p {  margin: 15px 0; }
+	input#popup-email, input#popup-submit{
+		width: 100%;
+		margin-bottom: 5px;
+		display: block;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 918px) {
+	.sticky-logo { 
+		height: 16px;
+		margin: 10px 7px 12px 0;
+	}
+	.sticky .main-nav { margin: 10px 10px 0px 0px; }
+	.icon-small { width: 23px; }
+	.sticky .main-nav li a:link, .sticky .main-nav li a:visited {
+		font-size: 50%;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	.products { width: 420px; }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row { padding: 0 4%; }
+	.product-box { padding: 0 2%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav { display: none; }
+    .logo img { height: 50px; }
+    .sticky .main-nav { margin: 10px 0 0 25px; }
+    .sticky .main-nav li a:link, .sticky .main-nav li a:visited  { padding: 10px 0; }
+	.sticky .sticky-icon.wrap-icon-header {
+		display: block;
+		width: auto;
+		position: absolute;
+		top: 4%;
+		right: 3%;
+	}
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+	.sidenav-icon {
+		font-size: 250%;
+		display: block;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		left: 2%;
+	}
+	.sticky-icon.wrap-icon-header div { margin-right: 5px; }
+	.sticky-icon.wrap-icon-header div:last-child { margin-right: 0px; }
+	.sticky .sticky-logo {
+		display: block;
+		text-align: center;
+		height: 40px;
+		margin: 10px auto;
+		float: none;
+	}
+	.sticky .sticky-sidenav-icon {
+		top: 15%;
+		left: 3%;
+	}
+	.sticky-icon.wrap-icon-header { margin-top: 25px; }
+    .first-in-row { margin-left: 0!important; }
+	
+	.long-copy {
+		text-align: justify;
+		width: 100%;
+		margin-left: 0; 
+		margin-bottom: 25px;
+	}
+	.box img { height: 360px; }
+	.promo-box:first-child, .promo-box:last-child { padding: 0 15%; }
+	.btn-black:link, .btn-black:visited {
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+		font-size: 90%;
+	}
+	.box .btn-black { width: 140px!important;}
+	.supportP { font-size: 90%; }
+	.social-links { font-size: 120%; }
+	footer .col { text-align: center; }
+	form { width: 100%; }
+	input#submit { padding: 10px 5px; }
+	#buttons img { width: 10px; }
+    
+}
+
+@media only screen and (max-width: 560px) {
+	.products { width: 210px; }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    h1 { 
+        font-size: 160%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+	#wrap { max-height:  420px; }
+	.slide-pointer:first-child, .slide-pointer:last-child {
+		width: 45px;
+	}
+	.btn-black:link, .btn-black:visited { width: 100%; }
+	.promo-box:first-child, .promo-box:last-child { padding: 0; }
+	input#name, input#email {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	input#submit {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.left-column {
+		float: none; 
+		width: 100%;
+		margin: 0;
+		height: 250px;
+	}
+	.right-column {
+		float: none; 
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+	a.popup-close:link, a.popup-close:visited { 
+		top: 50%;
+		right: 5%;
+	}
+	.right-column h3 {
+		margin: 10px 0 15px;
+		font-size: 100%;
+		line-height: 145%;
+	}
+	.popup-p { 
+		text-align: justify;
+		margin: 10px auto;
+	}
+	.popup-notice-p { margin: 10px 0 5px; }
+	.finalP { font-size: 80%; }
+	
+	.sidenav { padding-top: 50px; }
+	.logo img {  
+		height: 35px;
+		margin-left: 7%;
+	}
+	.sticky .sticky-logo { height: 25px; }
+	.sticky .sticky-icon.wrap-icon-header { top: -11%; }
+
+}
+
+@media only screen and (max-width: 360px) {
+	.top-social-links li { margin: 0 5px 0 0; }
+	.topP {
+		text-align: left;
+		margin: 0;
+	}
+	.finalP { font-size: 70%; }
+	.sticky .sticky-sidenav-icon {
+		position: relative;
+		left: 0;
+	}
+	.sticky .sticky-logo { height: 30px; }
+	.sticky .sticky-icon.wrap-icon-header {
+		position: relative;
+		margin: 10px auto;
+		float: none;
+		text-align: center;
+		display: block;
+		left: 0;
+		width: -webkit-fit-content;
+		width: -moz-fit-content;
+		width: fit-content;
+	}	
+}
+
+@media only screen and (max-width: 318px) {
+	.top-nav { height: auto; }
+	.top-nav-social {
+		float: none;
+		text-align: center;
+		width: -webkit-max-content;
+		width: -moz-max-content;
+		width: max-content;
+		margin: 0 auto;
+		display: block;
+	}
+	.top-social-links li { margin: 0px 15px 0px 0px; }
+	.top-social-links a:link, .top-social-links a:visited { font-size: 110%; }
+	.topP {
+		text-align: center;
+		display: block;
+		margin: 7px auto;
+	}
+	.wrap-icon-header {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: -webkit-fit-content;
+		width: -moz-fit-content;
+		width: fit-content;
+		font-size: 110%;
+	}
+	.slide-pointer:first-child, .slide-pointer:last-child { width: 35px; }
+}
+
